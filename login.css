@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background: url(myzzricalogo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+form {background-color: rgb(255, 255, 255);
+    border: 3px solid hsl(0, 0%, 100%);
+    width: 600px;
+    border-radius: 15px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgba(139, 169, 118, 0.671);
+    box-sizing: border-box;
+    border-radius: 015px;
+  }
+  /*Centering*/
+  .Hero{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.493);
+      
+  }
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #8c0d04;
+  }
+  
+  /* Center the title inside this container */
+  .titleContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+ 
